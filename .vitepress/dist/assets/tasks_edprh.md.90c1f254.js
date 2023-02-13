@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as a}from"./app.b7526372.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"tasks/edprh.md"}'),r={name:"tasks/edprh.md"};function s(o,c,n,p,d,_){return t(),a("div")}const f=e(r,[["render",s]]);export{m as __pageData,f as default};

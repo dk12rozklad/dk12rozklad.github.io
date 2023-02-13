@@ -3,12 +3,19 @@
     --vp-c-brand-dark: var(--vp-c-text-2);
 
 }
+
 .VPDoc .content-container {
     max-width: 1200px !important;
 }
+
 .VPDoc .content {
     max-width: 1200px !important;
 }
+
 .header-anchor {
     display: none;
+}
+
+th {
+    width: 1% !important;
 }

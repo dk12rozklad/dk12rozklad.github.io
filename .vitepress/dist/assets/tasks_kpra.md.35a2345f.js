@@ -1,1 +1,0 @@
-import{_ as t,o as e,c as a}from"./app.b7526372.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"tasks/kpra.md"}'),r={name:"tasks/kpra.md"};function s(o,c,n,p,_,d){return e(),a("div")}const f=t(r,[["render",s]]);export{m as __pageData,f as default};

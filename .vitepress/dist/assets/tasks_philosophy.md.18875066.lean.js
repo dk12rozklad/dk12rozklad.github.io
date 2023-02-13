@@ -1,1 +1,0 @@
-import{_ as t,o as e,c as o}from"./app.b7526372.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"tasks/philosophy.md"}'),s={name:"tasks/philosophy.md"};function a(r,p,c,n,i,_){return e(),o("div")}const l=t(s,[["render",a]]);export{h as __pageData,l as default};

@@ -1,1 +1,0 @@
-import{o as t,c as e,a}from"./app.b7526372.js";const l=a("",5),r=[l],h=JSON.parse('{"title":"Наш розклад","description":"","frontmatter":{"title":"Наш розклад","layout":"doc","aside":false},"headers":[],"relativePath":"index.md"}'),s={name:"index.md"},y=Object.assign(s,{setup(n){return(d,i)=>(t(),e("div",null,r))}});export{h as __pageData,y as default};

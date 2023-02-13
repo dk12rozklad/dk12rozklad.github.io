@@ -1,1 +1,0 @@
-import{_ as t,o as e,c as a}from"./app.b7526372.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"tasks/smart.md"}'),s={name:"tasks/smart.md"};function r(o,c,n,m,p,_){return e(),a("div")}const f=t(s,[["render",r]]);export{i as __pageData,f as default};

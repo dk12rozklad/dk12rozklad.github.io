@@ -1,1 +1,0 @@
-import{_ as t,o as e,c as a}from"./app.b7526372.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"tasks/flp.md"}'),s={name:"tasks/flp.md"};function r(o,c,n,p,_,f){return e(),a("div")}const l=t(s,[["render",r]]);export{i as __pageData,l as default};

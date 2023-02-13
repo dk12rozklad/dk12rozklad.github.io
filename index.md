@@ -34,27 +34,21 @@ aside: false
 
 Всю інформацію по предметам надсилайте мені в тг: [@Renat_TOP](https://t.me/Renat_TOP)
 
-<script>
+<script setup>
+import { onMounted } from "vue"
 
-    export default {
-        data() {
-            return {
-                firstWeek: document.getElementById('firstWeek'),
-                secondWeek: document.getElementById('secondWeek'),
-            }
-        },
-
-    mounted() {
-        let currentWeek = getNowWeek() === 1 ? firstWeek : secondWeek;
-        let nowCouple = getCouple() ? getCouple() : 0;
-        let table = currentWeek.getElementsByTagName("table")[0];
-        table.style.border = "1.8px solid #059669";
-        let weekDays = table.getElementsByTagName("td");
-        if (nowCouple) {
-            weekDays[nowCouple].style.border = "1.8px solid #059669";
-        }
+onMounted(() => {
+    let firstWeek = document.getElementById('firstWeek');
+    let secondWeek = document.getElementById('secondWeek');
+    let currentWeek = getNowWeek() === 1 ? firstWeek : secondWeek;
+    let nowCouple = getCouple() ? getCouple() : 0;
+    let table = currentWeek.getElementsByTagName("table")[0];
+    table.style.border = "1.8px solid #059669";
+    let weekDays = table.getElementsByTagName("td");
+    if (nowCouple) {
+        weekDays[nowCouple].style.border = "1.8px solid #059669";
     }
-}
+})
 
 function getNowWeek() {
     var year = new Date().getFullYear();
