@@ -1,5 +1,4 @@
 #!/bin/bash
-cd dev
 npm run build
 echo "
 #########Build complete#########

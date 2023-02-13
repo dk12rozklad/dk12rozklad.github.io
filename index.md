@@ -43,10 +43,10 @@ onMounted(() => {
     let currentWeek = getNowWeek() === 1 ? firstWeek : secondWeek;
     let nowCouple = getCouple() ? getCouple() : 0;
     let table = currentWeek.getElementsByTagName("table")[0];
-    table.style.border = "1.8px solid #059669";
+    table.style.border = "2px solid #059669";
     let weekDays = table.getElementsByTagName("td");
     if (nowCouple) {
-        weekDays[nowCouple].style.border = "1.8px solid #059669";
+        weekDays[nowCouple].style.border = "2px solid #059669";
     }
 })
 
@@ -66,13 +66,13 @@ function getCouple() {
 
     let now = new Date();
 
-    if (now > new Date(now.getFullYear(), now.getMonth(), now.getDate(), 8, 30, 0) && now < new Date(now.getFullYear(), now.getMonth(), now.getDate(), 10, 5, 0))
+    if (now >= new Date(now.getFullYear(), now.getMonth(), now.getDate(), 8, 30, 0) && now <= new Date(now.getFullYear(), now.getMonth(), now.getDate(), 10, 5, 0))
         return daysWithCouples[now.getDay()][0];
-    else if (now > new Date(now.getFullYear(), now.getMonth(), now.getDate(), 10, 5, 0) && now < new Date(now.getFullYear(), now.getMonth(), now.getDate(), 12, 0, 0))
+    else if (now >= new Date(now.getFullYear(), now.getMonth(), now.getDate(), 10, 5, 0) && now <= new Date(now.getFullYear(), now.getMonth(), now.getDate(), 12, 0, 0))
         return daysWithCouples[now.getDay()][1];
-    else if (now > new Date(now.getFullYear(), now.getMonth(), now.getDate(), 12, 0, 0) && now < new Date(now.getFullYear(), now.getMonth(), now.getDate(), 13, 55, 0))
+    else if (now >= new Date(now.getFullYear(), now.getMonth(), now.getDate(), 12, 0, 0) && now <= new Date(now.getFullYear(), now.getMonth(), now.getDate(), 13, 55, 0))
         return daysWithCouples[now.getDay()][2];
-    else if (now > new Date(now.getFullYear(), now.getMonth(), now.getDate(), 13, 55, 0) && now < new Date(now.getFullYear(), now.getMonth(), now.getDate(), 15, 50, 0))
+    else if (now >= new Date(now.getFullYear(), now.getMonth(), now.getDate(), 13, 55, 0) && now <= new Date(now.getFullYear(), now.getMonth(), now.getDate(), 15, 50, 0))
         return daysWithCouples[now.getDay()][3];
     else return 0;
 }
