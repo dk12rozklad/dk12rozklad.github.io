@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as a}from"./app.b7526372.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"tasks/modi.md"}'),o={name:"tasks/modi.md"};function s(r,c,n,d,i,m){return e(),a("div")}const f=t(o,[["render",s]]);export{_ as __pageData,f as default};

@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as o}from"./app.b7526372.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"tasks/psychology.md"}'),s={name:"tasks/psychology.md"};function a(c,r,n,p,_,d){return e(),o("div")}const m=t(s,[["render",a]]);export{l as __pageData,m as default};

@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as a}from"./app.b7526372.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"tasks/political.md"}'),o={name:"tasks/political.md"};function s(c,r,i,n,p,l){return e(),a("div")}const m=t(o,[["render",s]]);export{d as __pageData,m as default};
