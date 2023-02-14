@@ -3,5 +3,5 @@
 * [Електродинаміка та поширення радіохвиль](/tasks/edprh.md)
 * [Схемотехніка](/tasks/circuit.md)
 * [МОДІ](/tasks/modi.md)
-* [Філософія](/tasks/psychology.md)
+* [Філософія](/tasks/philosophy.md)
 * [Конструктурське проєктування радіоелектронної апаратури](/tasks/kpra.md)
