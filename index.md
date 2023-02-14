@@ -39,10 +39,10 @@ import { onMounted } from "vue"
 
 onMounted(() => {
     checkWeekAndCouple()
+    console.log("Ну і чого ти сюди дивишся, чортяка! Якщо ти хочеш допомогти зробити цей сайт краще, то пиши в телеграм: @Renat_TOP");
     setInterval(() => {
         checkWeekAndCouple();
     }, 60000);
-    console.log("Ну і чого ти сюди дивишся, чортяка! Якщо ти хочеш допомогти зробити цей сайт краще, то пиши в телеграм: @Renat_TOP");
 })
 
 function checkWeekAndCouple() {
@@ -54,6 +54,7 @@ function checkWeekAndCouple() {
     table.style.border = "2px solid #059669";
     let weekDays = table.getElementsByTagName("td");
     if (nowCouple) {
+        weekDays[nowCouple - 6].style.border = "1px solid var(--vp-c-divider)"
         weekDays[nowCouple].style.border = "2px solid #059669";
     }
 }
