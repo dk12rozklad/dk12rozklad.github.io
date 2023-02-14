@@ -32,7 +32,7 @@ aside: false
 
 </div>
 
-Всю інформацію по предметам надсилайте групу ДЗ в тг
+Всю інформацію по предметам надсилайте в групу ДЗ в тг
 
 <script setup>
 import { onMounted } from "vue"
@@ -40,9 +40,10 @@ import { onMounted } from "vue"
 onMounted(() => {
     checkWeekAndCouple()
     console.log("Ну і чого ти сюди дивишся, чортяка! Якщо ти хочеш допомогти зробити цей сайт краще, то пиши в телеграм: @Renat_TOP");
+    
     setInterval(() => {
         checkWeekAndCouple();
-    }, 60000);
+    }, 10000);
 })
 
 function checkWeekAndCouple() {
@@ -53,7 +54,13 @@ function checkWeekAndCouple() {
     let table = currentWeek.getElementsByTagName("table")[0];
     table.style.border = "2px solid #059669";
     let weekDays = table.getElementsByTagName("td");
-    if (nowCouple) {
+    if (nowCouple === -1) {
+        let lastCouples = [19, 20, 21, 22, 23];
+        for (let i = 0; i < lastCouples.length; i++) {
+            weekDays[lastCouples[i]].style.border = "1px solid var(--vp-c-divider)"
+        }
+    }
+    else if (nowCouple) {
         weekDays[nowCouple - 6].style.border = "1px solid var(--vp-c-divider)"
         weekDays[nowCouple].style.border = "2px solid #059669";
     }
@@ -83,6 +90,8 @@ function getCouple() {
         return daysWithCouples[now.getDay()][2];
     else if (now >= new Date(now.getFullYear(), now.getMonth(), now.getDate(), 13, 55, 0) && now <= new Date(now.getFullYear(), now.getMonth(), now.getDate(), 15, 50, 0))
         return daysWithCouples[now.getDay()][3];
+    else if (now > new Date(now.getFullYear(), now.getMonth(), now.getDate(), 15, 50, 0) && now < new Date(now.getFullYear(), now.getMonth(), now.getDate(), 8, 30, 0))
+        return -1;
     else return 0;
 }
 
