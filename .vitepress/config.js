@@ -4,6 +4,9 @@ import { defineConfig } from 'vite'
 export default {
     themeConfig: {
         logo: "/images/logo.jpg",
+        nav: [
+            { text: "Дедлайни", link: "/deadlines" },
+        ],
     },
     lang: "UK",
     title: "Наш розклад",
