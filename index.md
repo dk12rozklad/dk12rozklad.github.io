@@ -32,7 +32,7 @@ aside: false
 
 </div>
 
-Всю інформацію по предметам надсилайте мені в тг: [@Renat_TOP](https://t.me/Renat_TOP)
+Всю інформацію по предметам надсилайте групу ДЗ в тг
 
 <script setup>
 import { onMounted } from "vue"
