@@ -4,7 +4,7 @@
 ## Інформація
 * [Classroom](https://classroom.google.com/c/MTUyNjM3NTk4ODIw)
 * [Meet Пілінський лекція](https://meet.google.com/lookup/ec6fp2ld77)
-* [Meet Бондаренко практика](https://us04web.zoom.us/j/3112329829?pwd=d1I3ZEVhd0VsSXBCV3BKMVdMY2U2dz09)
+* [Meet Бондаренко лаба](https://us04web.zoom.us/j/3112329829?pwd=d1I3ZEVhd0VsSXBCV3BKMVdMY2U2dz09)
 * Пошта Пілінського:[pww@ukr.net](mailto:pww@ukr.net)
 * Пошта Бондаренко:[dkfel@ua.fm](mailto:dkfel@ua.fm)
 * [Методичка](/files/edprh/metod.pdf)
