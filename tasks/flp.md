@@ -9,4 +9,9 @@
 * Пошта Омеляна: [31master91@gmail.com](mailto:31master91@gmail.com)
 
 ## ДЗ, МКР, Лаби
-Coming soon...
+::: danger Завдання
+До 01.03.2023 зробити завдання та надіслати на пошту Редько! [Лінк](/files/flp/task1.pdf)
+:::
+
+* [Тема 1](/files/flp/t1.pdf)
+* [Тема 2](/files/flp/t2.pdf)

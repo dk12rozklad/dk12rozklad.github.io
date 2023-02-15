@@ -38,12 +38,13 @@ aside: false
 import { onMounted } from "vue"
 
 onMounted(() => {
-    checkWeekAndCouple()
     console.log("Ну і чого ти сюди дивишся, чортяка! Якщо ти хочеш допомогти зробити цей сайт краще, то пиши в телеграм: @Renat_TOP");
-    
-    setInterval(() => {
+    try {
+        checkWeekAndCouple()
+        setInterval(() => {
         checkWeekAndCouple();
-    }, 10000);
+        }, 10000);
+    } catch (e) {}
 })
 
 function checkWeekAndCouple() {
