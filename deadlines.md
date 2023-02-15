@@ -5,3 +5,9 @@
 * [МОДІ](/tasks/modi.md)
 * [Функціонально-логічне проектування](/tasks/flp.md)
 * [Конструктурське проєктування радіоелектронної апаратури](/tasks/kpra.md)
+
+<style scoped>
+h1 {
+    text-align: center !important;
+}
+</style>

@@ -6,6 +6,7 @@ export default {
         logo: "/images/logo.jpg",
         nav: [
             { text: "Дедлайни", link: "/deadlines" },
+            { text: "Список групи", link: "/list" },
         ],
     },
     lang: "UK",
