@@ -38,7 +38,7 @@ aside: false
 import { onMounted } from "vue"
 
 onMounted(() => { 
-    let appVersion = "2.0";
+    let appVersion = "2.0.1";
     console.log("Ну і чого ти сюди дивишся, чортяка! Якщо ти хочеш допомогти зробити цей сайт краще, то пиши в телеграм: @Renat_TOP");
     try {
         checkWeekAndCouple()
