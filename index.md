@@ -38,21 +38,13 @@ aside: false
 import { onMounted } from "vue"
 
 onMounted(() => { 
-    let appVersion = "2.0.5";
     console.log("Ну і чого ти сюди дивишся, чортяка! Якщо ти хочеш допомогти зробити цей сайт краще, то пиши в телеграм: @Renat_TOP");
     try {
         checkWeekAndCouple()
-    } catch (e) {}
-    setInterval(() => {
-        const nowAppVersion = localStorage.getItem("appVersion");
-        if (nowAppVersion == null || nowAppVersion !== appVersion ) {
-            localStorage.setItem("appVersion", appVersion);
-            location.reload();
-        }
-        try {
+        setInterval(() => {
             checkWeekAndCouple();
-        } catch (e) {}
         }, 10000);
+    } catch (e) {}
 })
 
 function checkWeekAndCouple() {
