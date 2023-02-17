@@ -1,1 +1,0 @@
-import{_ as t,o as a,c as e,a as d}from"./app.eb240e72.js";const _=JSON.parse('{"title":"Список групи","description":"","frontmatter":{"aside":false},"headers":[],"relativePath":"list.md"}'),l={name:"list.md"},c=d("",2),i=[c];function s(n,v,f,r,y,g){return a(),e("div",null,i)}const o=t(l,[["render",s],["__scopeId","data-v-9eac59d8"]]);export{_ as __pageData,o as default};
