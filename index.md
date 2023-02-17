@@ -37,12 +37,18 @@ aside: false
 <script setup>
 import { onMounted } from "vue"
 
-onMounted(() => {
+onMounted(() => { 
+    let appVersion = "2.0";
     console.log("Ну і чого ти сюди дивишся, чортяка! Якщо ти хочеш допомогти зробити цей сайт краще, то пиши в телеграм: @Renat_TOP");
     try {
         checkWeekAndCouple()
         setInterval(() => {
-        checkWeekAndCouple();
+            checkWeekAndCouple();
+            const nowAppVersion = localStorage.getItem("appVersion");
+            if (nowAppVersion == null || nowAppVersion !== appVersion ) {
+                localStorage.setItem("appVersion", appVersion);
+                location.reload();
+            }
         }, 10000);
     } catch (e) {}
 })
