@@ -12,10 +12,10 @@
 
 ## ДЗ, МКР, Лаби
 ::: danger Завдання
-До 01.03 зробити завдання та надіслати на пошту Редько! [Лінк](/files/flp/task1.pdf)
+До 01.03 зробити завдання та надіслати на пошту Редько! [Лінк](https://dk12rozklad.github.io//files/flp/task1.pdf)
 Встановити та налаштувати програму  Quartus v13 з інструкції вище
 До 03.03 зробити лабу 1 [Лінк](https://classroom.google.com/c/NDU0OTg5NjgwNDcx/a/NTkzNjMxNTE0OTQ4/details)
 :::
 
-* [Тема 1](/files/flp/t1.pdf)
-* [Тема 2](/files/flp/t2.pdf)
+* [Тема 1](https://dk12rozklad.github.io//files/flp/t1.pdf)
+* [Тема 2](https://dk12rozklad.github.io//files/flp/t2.pdf)

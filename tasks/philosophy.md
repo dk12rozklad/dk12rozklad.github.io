@@ -16,4 +16,4 @@
     - 5. Місце та функції філософії в культурі. (Влад, Назар)
 :::
 
-[Лекція 1](/files/philosophy/l1.pdf)
+[Лекція 1](https://dk12rozklad.github.io/files/philosophy/l1.pdf)

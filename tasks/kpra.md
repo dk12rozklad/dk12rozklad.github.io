@@ -9,6 +9,8 @@
 * [Поточний рейтинг](https://1drv.ms/x/s!AnsBG48pXHjRg9ZFti_4LSfnKV4DFA)
 * [Силабус](https://1drv.ms/b/s!AnsBG48pXHjRg9J6xLYm2EoNryFpdw?e=M6RTm0)
 * [Матеріали](https://1drv.ms/u/s!AnsBG48pXHjRnjkTnYtSqo_QRSug?e=YLWZeW)
+* [Сайт 3D моделей](https://www.3dcontentcentral.com/)
+* [Сайт з Footprints](https://www.snapeda.com/)
 
 ## ДЗ, МКР, Лаби
 ::: warning Обрати схему

@@ -7,8 +7,8 @@
 * [Meet Бондаренко лаба](https://us04web.zoom.us/j/3112329829?pwd=d1I3ZEVhd0VsSXBCV3BKMVdMY2U2dz09)
 * Пошта Пілінського:[pww@ukr.net](mailto:pww@ukr.net)
 * Пошта Бондаренко:[dkfel@ua.fm](mailto:dkfel@ua.fm)
-* [Методичка](/files/edprh/metod.pdf)
-* [Тема лаб та налаштування программи](/files/edprh/lab_help.pdf)
+* [Методичка](https://dk12rozklad.github.io//files/edprh/metod.pdf)
+* [Тема лаб та налаштування программи](https://dk12rozklad.github.io//files/edprh/lab_help.pdf)
 
 ## ДЗ, МКР, Лаби
 ::: danger Завдання
@@ -17,5 +17,5 @@
 * Також бажано робити завдання розділів 3 та 4
 :::
 
-* [Практика 1](/files/edprh/prak1.pdf)
+* [Практика 1](https://dk12rozklad.github.io//files/edprh/prak1.pdf)
 
