@@ -47,53 +47,66 @@ onMounted(() => {
     } catch (e) {}
 })
 
+const daysWithCouples = [[], [1, 7, 13, 19], [2, 8, 14, 20], [3, 9, 15, 21], [4, 10, 16, 22], [5, 11, 17, 23], []];
+const COUPLE_TIME = {
+    start: '08:30',
+    end1: '10:05',
+    end2: '12:00',
+    end3: '13:55',
+    end4: '15:50'
+};
+
+function getNowWeek(){
+    return new Date().getDay() % 2;
+}
+
+function getCouple(){
+    let now = new Date();
+    let day = now.getDay();
+    let timeHour = now.getHours();
+    let timeMinutes = now.getMinutes();
+    let hourminute = timeHour + ":" + timeMinutes;
+    let coupleIndex = 0;
+
+    switch(true){
+        case (hourminute >= COUPLE_TIME.start && hourminute <= COUPLE_TIME.end1):
+            coupleIndex = 0;
+            break;
+        case (hourminute > COUPLE_TIME.end1 && hourminute <= COUPLE_TIME.end2):
+            coupleIndex = 1;
+            break;
+        case (hourminute > COUPLE_TIME.end2 && hourminute <= COUPLE_TIME.end3):
+            coupleIndex = 2;
+            break;
+        case (hourminute > COUPLE_TIME.end3 && hourminute <= COUPLE_TIME.end4):
+            coupleIndex = 3;
+            break;
+        default:
+            coupleIndex = -1;
+            break;
+    }
+    return daysWithCouples[day][coupleIndex] || 0;	
+}
+
 function checkWeekAndCouple() {
     let firstWeek = document.getElementById('firstWeek');
-    let secondWeek = document.getElementById('secondWeek');
+    let secondWeek = document.getElementById('secondWeek');		
     let currentWeek = getNowWeek() === 1 ? firstWeek : secondWeek;
     let nowCouple = getCouple() ? getCouple() : 0;
     let table = currentWeek.getElementsByTagName("table")[0];
     table.style.border = "2px solid #059669";
     let weekDays = table.getElementsByTagName("td");
+    let lastCouples = [19, 20, 21, 22, 23];
+    
     if (nowCouple === -1) {
-        let lastCouples = [19, 20, 21, 22, 23];
-        for (let i = 0; i < lastCouples.length; i++) {
-            weekDays[lastCouples[i]].style.border = "1px solid var(--vp-c-divider)"
-        }
+        lastCouples.forEach(function(element){
+            weekDays[element].style.border = "1px solid var(--vp-c-divider)"
+        }); 
     }
     else if (nowCouple) {
         weekDays[nowCouple - 6].style.border = "1px solid var(--vp-c-divider)"
         weekDays[nowCouple].style.border = "2px solid #059669";
     }
-}
-
-function getNowWeek() {
-    var year = new Date().getFullYear();
-    var month = new Date().getMonth();
-    var today = new Date(year, month, 0).getTime();
-    var now = new Date().getTime();
-    var week = Math.round((now) / (1000 * 60 * 60 * 24 * 7));
-    if (week % 2) return 1;
-    else return 2;
-}
-
-function getCouple() {
-    // [sunday, monday, tuesday, wednesday, thursday, friday, saturday]
-    let daysWithCouples = [[], [1, 7, 13, 19], [2, 8, 14, 20], [3, 9, 15, 21], [4, 10, 16, 22], [5, 11, 17, 23], []];
-
-    let now = new Date();
-
-    if (now >= new Date(now.getFullYear(), now.getMonth(), now.getDate(), 8, 30, 0) && now <= new Date(now.getFullYear(), now.getMonth(), now.getDate(), 10, 5, 0))
-        return daysWithCouples[now.getDay()][0];
-    else if (now >= new Date(now.getFullYear(), now.getMonth(), now.getDate(), 10, 5, 0) && now <= new Date(now.getFullYear(), now.getMonth(), now.getDate(), 12, 0, 0))
-        return daysWithCouples[now.getDay()][1];
-    else if (now >= new Date(now.getFullYear(), now.getMonth(), now.getDate(), 12, 0, 0) && now <= new Date(now.getFullYear(), now.getMonth(), now.getDate(), 13, 55, 0))
-        return daysWithCouples[now.getDay()][2];
-    else if (now >= new Date(now.getFullYear(), now.getMonth(), now.getDate(), 13, 55, 0) && now <= new Date(now.getFullYear(), now.getMonth(), now.getDate(), 15, 50, 0))
-        return daysWithCouples[now.getDay()][3];
-    else if (now > new Date(now.getFullYear(), now.getMonth(), now.getDate(), 15, 50, 0) && now < new Date(now.getFullYear(), now.getMonth(), now.getDate(), 8, 30, 0))
-        return -1;
-    else return 0;
 }
 
 </script>
