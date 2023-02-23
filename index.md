@@ -47,14 +47,21 @@ onMounted(() => {
     } catch (e) {}
 })
 
+const now = new Date();
+const year = now.getFullYear();
+const month = now.getMonth();
+const date = now.getDate();
+const day = now.getDay();
+const time = now.getTime();
+
 function checkWeekAndCouple() {
-    let firstWeek = document.getElementById('firstWeek');
-    let secondWeek = document.getElementById('secondWeek');
-    let currentWeek = getNowWeek() === 1 ? firstWeek : secondWeek;
-    let nowCouple = getCouple() ? getCouple() : 0;
-    let table = currentWeek.getElementsByTagName("table")[0];
+    const firstWeek = document.getElementById('firstWeek');
+    const secondWeek = document.getElementById('secondWeek');
+    const currentWeek = getNowWeek() === 1 ? firstWeek : secondWeek;
+    const nowCouple = getCouple() ? getCouple() : 0;
+    const table = currentWeek.getElementsByTagName("table")[0];
     table.style.border = "2px solid #059669";
-    let weekDays = table.getElementsByTagName("td");
+    const weekDays = table.getElementsByTagName("td");
     if (nowCouple === -1) {
         let lastCouples = [19, 20, 21, 22, 23];
         for (let i = 0; i < lastCouples.length; i++) {
@@ -68,30 +75,24 @@ function checkWeekAndCouple() {
 }
 
 function getNowWeek() {
-    var year = new Date().getFullYear();
-    var month = new Date().getMonth();
-    var today = new Date(year, month, 0).getTime();
-    var now = new Date().getTime();
-    var week = Math.round((now) / (1000 * 60 * 60 * 24 * 7));
-    if (week % 2) return 1;
-    else return 2;
+    const today = new Date(year, month, 0).getTime();
+    const week = Math.round((time) / (1000 * 60 * 60 * 24 * 7));
+    return week % 2 ? 1 : 2;
 }
 
 function getCouple() {
     // [sunday, monday, tuesday, wednesday, thursday, friday, saturday]
-    let daysWithCouples = [[], [1, 7, 13, 19], [2, 8, 14, 20], [3, 9, 15, 21], [4, 10, 16, 22], [5, 11, 17, 23], []];
+    const daysWithCouples = [[], [1, 7, 13, 19], [2, 8, 14, 20], [3, 9, 15, 21], [4, 10, 16, 22], [5, 11, 17, 23], []];
 
-    let now = new Date();
-
-    if (now >= new Date(now.getFullYear(), now.getMonth(), now.getDate(), 8, 30, 0) && now <= new Date(now.getFullYear(), now.getMonth(), now.getDate(), 10, 5, 0))
-        return daysWithCouples[now.getDay()][0];
-    else if (now >= new Date(now.getFullYear(), now.getMonth(), now.getDate(), 10, 5, 0) && now <= new Date(now.getFullYear(), now.getMonth(), now.getDate(), 12, 0, 0))
-        return daysWithCouples[now.getDay()][1];
-    else if (now >= new Date(now.getFullYear(), now.getMonth(), now.getDate(), 12, 0, 0) && now <= new Date(now.getFullYear(), now.getMonth(), now.getDate(), 13, 55, 0))
-        return daysWithCouples[now.getDay()][2];
-    else if (now >= new Date(now.getFullYear(), now.getMonth(), now.getDate(), 13, 55, 0) && now <= new Date(now.getFullYear(), now.getMonth(), now.getDate(), 15, 50, 0))
-        return daysWithCouples[now.getDay()][3];
-    else if (now > new Date(now.getFullYear(), now.getMonth(), now.getDate(), 15, 50, 0) && now < new Date(now.getFullYear(), now.getMonth(), now.getDate(), 8, 30, 0))
+    if (now >= new Date(year, month, date, 8, 30, 0) && now <= new Date(year, month, date, 10, 5, 0))
+        return daysWithCouples[day][0];
+    else if (now >= new Date(year, month, date, 10, 5, 0) && now <= new Date(year, month, date, 12, 0, 0))
+        return daysWithCouples[day][1];
+    else if (now >= new Date(year, month, date, 12, 0, 0) && now <= new Date(year, month, date, 13, 55, 0))
+        return daysWithCouples[day][2];
+    else if (now >= new Date(year, month, date, 13, 55, 0) && now <= new Date(year, month, date, 15, 50, 0))
+        return daysWithCouples[day][3];
+    else if (now > new Date(year, month, date, 15, 50, 0) && now < new Date(year, month, date, 8, 30, 0))
         return -1;
     else return 0;
 }
