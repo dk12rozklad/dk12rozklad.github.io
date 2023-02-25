@@ -14,6 +14,6 @@
 
 ## ДЗ, МКР, Лаби
 ::: warning Обрати схему
-* Треба обрати свою схему на семестр [лінк](https://classroom.google.com/c/NTg4MzM4ODM3OTM3/a/NTg4MzQwOTU2ODU2/details), у чаті дізнайтесь які вже зайняті!
 * Робити лабу 1 [лінк](https://classroom.google.com/c/NTg4MzM4ODM3OTM3/a/NTg4MzQwOTU2ODQ3/details)
+* Також робити дз з класруму до 18.03
 :::

@@ -7,9 +7,9 @@
 * [Підручник 2](https://dk12rozklad.github.io//files/modi/p2.pdf)
 
 ## ДЗ, МКР, Лаби
-::: warning Лаба
-До 21.02 треба зробити лабу 1 [Лаба](https://dk12rozklad.github.io/files/modi/lab1.pdf)
-:::
+<!-- ::: warning Лаба
+
+::: -->
 
 **Бригади:**
 ![Бригади](/images/modi/brigades.jpg)
