@@ -13,8 +13,7 @@
 
 ## ДЗ, МКР, Лаби
 ::: danger Завдання
-* До 01.03 зробити завдання та надіслати на пошту Редько! [Лінк](https://dk12rozklad.github.io//files/flp/task1.pdf)
-* До 03.03 зробити лабу 1 [Лінк](https://classroom.google.com/c/NDU0OTg5NjgwNDcx/a/NTkzNjMxNTE0OTQ4/details), таблиця пінів вище, інструкція в кінці файлу лаб
+* До кінця місяця зробити лабу 2, таблиця пінів вище, інструкція в кінці файлу лаб
 :::
 
 * [Тема 1](https://dk12rozklad.github.io//files/flp/t1.pdf)

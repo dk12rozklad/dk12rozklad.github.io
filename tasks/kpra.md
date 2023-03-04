@@ -14,6 +14,6 @@
 
 ## ДЗ, МКР, Лаби
 ::: warning Обрати схему
-* Робити лабу 1 [лінк](https://classroom.google.com/c/NTg4MzM4ODM3OTM3/a/NTg4MzQwOTU2ODQ3/details)
+* Робити лаби
 * Також робити дз з класруму до 18.03
 :::
