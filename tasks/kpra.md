@@ -14,7 +14,7 @@
 
 ## ДЗ, МКР, Лаби
 ::: warning Тест
-* Походу 21.03 [Лінк](https://classroom.google.com/c/NTg4MzM4ODM3OTM3/a/NTg4MzQwOTU2ODU4/details)
+* Тест 21.03 з 9:45 до 10:05 !!! [Лінк](https://classroom.google.com/c/NTg4MzM4ODM3OTM3/a/NTg4MzQwOTU2ODU4/details)
 * Робити лаби
 * Також робити дз з класруму до 18.03
 :::
