@@ -9,6 +9,7 @@
 ## ДЗ, МКР, Лаби
 ::: warning Лаба
 * Зробити лабу 2
+* 3 лаби можна закрити цим курсом [Лінк](https://www.coursera.org/videos/numerical-methods-engineers/qOzRJ?query=numerical+methods+of+integration&source=search), але курс не закриває 1, 2 і ще якусь лабу, та РГР
 :::
 
 **Бригади:**
