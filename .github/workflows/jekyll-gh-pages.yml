@@ -1,36 +1,59 @@
 name: Deploy
 on:
-  workflow_dispatch: {}
-  push:
-    branches:
-      - main
+    workflow_dispatch: {}
+    push:
+        branches:
+            - main
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+    contents: read
+    pages: write
+    id-token: write
 
 jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16
-          cache: npm
-      - run: npm install
-      - name: Build
-        run: npm run build
-      - uses: actions/configure-pages@v2
-      - uses: actions/upload-pages-artifact@v1
-        with:
-          path: .vitepress/dist
-      - name: Deploy
-        id: deployment
-        uses: actions/deploy-pages@v1
+    build:
+        runs-on: ubuntu-latest
+        name: Build and Push
+        steps:
+            - name: git-checkout
+              uses: actions/checkout@v3
+            - uses: actions/setup-node@v3
+              with:
+                  node-version: 18
+            - name: Install all dependencies
+              run: npm install
+
+            - name: Build
+              run: npm run build
+
+            - name: Push
+              uses: s0/git-publish-subdir-action@develop
+              env:
+                  REPO: self
+                  BRANCH: build
+                  FOLDER: build
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                  MESSAGE: "Build: ({sha}) {msg}"
+    deploy:
+        runs-on: ubuntu-latest
+        environment:
+            name: github-pages
+            url: ${{ steps.deployment.outputs.page_url }}
+        steps:
+            - uses: actions/checkout@v3
+              with:
+                  fetch-depth: 0
+            - uses: actions/setup-node@v3
+              with:
+                  node-version: 16
+                  cache: npm
+            - run: npm install
+            - name: Build
+              run: npm run build
+            - uses: actions/configure-pages@v2
+            - uses: actions/upload-pages-artifact@v1
+              with:
+                  path: .vitepress/dist
+            - name: Deploy
+              id: deployment
+              uses: actions/deploy-pages@v1
