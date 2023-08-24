@@ -10,11 +10,8 @@ aside: false
 | 2 | Гриценко Дарина | dk12.grutsenko@lll.kpi&#46;ua | @kafethy |
 | 3 | Дегтярьов Дмитро | dk12.degtiarov@lll.kpi&#46;ua | @zay4onok_pod_spidami |
 | 4 | Демʼянчук Тарас | dk12.demianchuk@lll.kpi&#46;ua | @Taras_Demyanchuk |
-| 5 | Матяш Марія | dk12.matiash@lll.kpi&#46;ua | @mgellysss |
-| 6 | Олійник Ренат | dk12.olyinik@lll.kpi&#46;ua | @Renat_TOP |
-| 7 | Павлов Ілля | dk12.pavlov@lll.kpi&#46;ua | @ilpicium |
-| 8 | Половʼян Денис | dk12.polovian@lll.kpi&#46;ua | @denisqb |
-| 9 | Ціось Назарій | dk12.tsios@lll.kpi&#46;ua | Назарій |
+| 5 | Олійник Ренат | dk12.olyinik@lll.kpi&#46;ua | @Renat_TOP |
+| 6 | Половʼян Денис | dk12.polovian@lll.kpi&#46;ua | @denisqb |
 
 <style scoped>
 h1 {
