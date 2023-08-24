@@ -2,7 +2,6 @@
 
 * Поки що пусто, поки що
 
-
 <style scoped>
 h1 {
     text-align: center !important;
