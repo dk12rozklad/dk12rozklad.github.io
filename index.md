@@ -43,13 +43,18 @@ onMounted(() => {
     console.log("Ну і чого ти сюди дивишся, чортяка! Якщо ти хочеш допомогти зробити цей сайт краще, то пиши в телеграм: @Renat_TOP");
     try {
         checkWeekAndCouple()
+        getUADate(year, month, date, 8, 30, 0)
         setInterval(() => {
             checkWeekAndCouple();
         }, 10000);
     } catch (e) {}
 })
 
-const now = new Date();
+function getUADate(year, month, date, hours, minutes, secons) {
+    return new Date(year, month, date, hours, minutes, secons).toLocaleString('en', {timeZone: 'Europe/Kyiv'});
+}
+
+const now = new Date(new Date().toLocaleString('en', {timeZone: 'Europe/Kyiv'}));
 const year = now.getFullYear();
 const month = now.getMonth();
 const date = now.getDate();
@@ -86,17 +91,17 @@ function getCouple() {
     // [sunday, monday, tuesday, wednesday, thursday, friday, saturday]
     const daysWithCouples = [[], [1, 6, 11, 16, 21], [2, 7, 12, 17, 22], [3, 8, 13, 18, 23], [4, 9, 14, 19, 24], [], []];
 
-    if (now >= new Date(year, month, date, 8, 30, 0) && now <= new Date(year, month, date, 10, 5, 0))
+    if (now >= getUADate(year, month, date, 8, 30, 0) && now <= getUADate(year, month, date, 10, 5, 0))
         return daysWithCouples[day][0];
-    else if (now >= new Date(year, month, date, 10, 5, 0) && now <= new Date(year, month, date, 12, 0, 0))
+    else if (now >= getUADate(year, month, date, 10, 5, 0) && now <= getUADate(year, month, date, 12, 0, 0))
         return daysWithCouples[day][1];
-    else if (now >= new Date(year, month, date, 12, 0, 0) && now <= new Date(year, month, date, 13, 55, 0))
+    else if (now >= getUADate(year, month, date, 12, 0, 0) && now <= getUADate(year, month, date, 13, 55, 0))
         return daysWithCouples[day][2];
-    else if (now >= new Date(year, month, date, 13, 55, 0) && now <= new Date(year, month, date, 15, 50, 0))
+    else if (now >= getUADate(year, month, date, 13, 55, 0) && now <= getUADate(year, month, date, 15, 50, 0))
         return daysWithCouples[day][3];
-    else if (now >= new Date(year, month, date, 15, 50, 0) && now <= new Date(year, month, date, 18, 10, 0))
+    else if (now >= getUADate(year, month, date, 15, 50, 0) && now <= getUADate(year, month, date, 18, 10, 0))
         return daysWithCouples[day][4];
-    else if (now > new Date(year, month, date, 18, 10, 0) && now < new Date(year, month, date, 8, 30, 0))
+    else if (now > getUADate(year, month, date, 18, 10, 0) && now < getUADate(year, month, date, 8, 30, 0))
         return -1;
     else return 0;
 }
