@@ -43,7 +43,6 @@ onMounted(() => {
     console.log("Ну і чого ти сюди дивишся, чортяка! Якщо ти хочеш допомогти зробити цей сайт краще, то пиши в телеграм: @Renat_TOP");
     try {
         checkWeekAndCouple()
-        console.log(getUADate(year, month, date, 8, 30, 0))
         setInterval(() => {
             checkWeekAndCouple();
         }, 10000);
@@ -82,7 +81,7 @@ function checkWeekAndCouple() {
 }
 
 function getNowWeek() {
-    const today = new Date(year, month, 0).getTime();
+    const today = getUADate(year, month, day, 0, 0, 0).getTime();
     const week = Math.round((time) / (1000 * 60 * 60 * 24 * 7));
     return week % 2 ? 1 : 2;
 }
