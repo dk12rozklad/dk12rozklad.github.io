@@ -51,7 +51,7 @@ onMounted(() => {
 })
 
 function getUADate(year, month, date, hours, minutes, secons) {
-    return new Date(year, month, date, hours, minutes, secons).toLocaleString('en', {timeZone: 'Europe/Kyiv'});
+    return new Date(new Date(year, month, date, hours, minutes, secons).toLocaleString('en', {timeZone: 'Europe/Kyiv'}));
 }
 
 const now = new Date(new Date().toLocaleString('en', {timeZone: 'Europe/Kyiv'}));
