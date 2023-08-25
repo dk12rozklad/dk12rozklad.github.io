@@ -43,7 +43,7 @@ onMounted(() => {
     console.log("Ну і чого ти сюди дивишся, чортяка! Якщо ти хочеш допомогти зробити цей сайт краще, то пиши в телеграм: @Renat_TOP");
     try {
         checkWeekAndCouple()
-        getUADate(year, month, date, 8, 30, 0)
+        console.log(getUADate(year, month, date, 8, 30, 0))
         setInterval(() => {
             checkWeekAndCouple();
         }, 10000);
