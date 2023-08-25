@@ -84,7 +84,7 @@ function getNowWeek() {
 
 function getCouple() {
     // [sunday, monday, tuesday, wednesday, thursday, friday, saturday]
-    const daysWithCouples = [[], [1, 6, 11, 16, 21], [2, 7, 12, 17, 22], [3, 8, 13, 18, 23], [4, 9, 14, 19, 24], [5, 10, 15, 20, 25], []];
+    const daysWithCouples = [[], [1, 6, 11, 16, 21], [2, 7, 12, 17, 22], [3, 8, 13, 18, 23], [4, 9, 14, 19, 24], [], []];
 
     if (now >= new Date(year, month, date, 8, 30, 0) && now <= new Date(year, month, date, 10, 5, 0))
         return daysWithCouples[day][0];
