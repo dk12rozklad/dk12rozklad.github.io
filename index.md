@@ -16,7 +16,7 @@ aside: false
 | 2<br>10:25 - 12:00 |       [ТСС `Лек`](/tasks/TSS)       | [Схемотехніка `Лек`](/tasks/circuitry) |  [ОMТ `Лаб`](/tasks/OMT)   |   [КТ ТК РЕА `329-12 Лаб`](/tasks/KTTKREA)    |
 | 3<br>12:20 - 13:55 |      [ВРПЗ `Лек`](/tasks/VRPZ)      |        [ОМТ `Лек`](/tasks/OMT)         | [ВРПЗ `Лаб`](/tasks/VRPZ)  |       [КТ ТК РЕА `Лек`](/tasks/KTTKREA)       |
 | 4<br>14:15 - 15:50 |                                     |                                        |                            |                                               |
-| 5<br>16:10 - 18:10 | [Англійська `Прак`](/tasks/english) |                                        |                            |                                               |
+| 5<br>16:10 - 17:45 | [Англійська `Прак`](/tasks/english) |                                        |                            |                                               |
 
 </div>
 
@@ -30,7 +30,7 @@ aside: false
 | 2<br>10:25 - 12:00 |       [ТСС `Лек`](/tasks/TSS)       | [ОІТ `Лаб`](/tasks/OIT) |  [ТСС `Лаб`](/tasks/TSS)   |                                   |
 | 3<br>12:20 - 13:55 |      [ВРПЗ `Лек`](/tasks/VRPZ)      | [ОМТ `Лек`](/tasks/OMT) |                            | [КТ ТК РЕА `Лек`](/tasks/KTTKREA) |
 | 4<br>14:15 - 15:50 |                                     |                         |                            |                                   |
-| 5<br>16:10 - 18:10 | [Англійська `Прак`](/tasks/english) |                         |                            |                                   |
+| 5<br>16:10 - 17:45 | [Англійська `Прак`](/tasks/english) |                         |                            |                                   |
 
 </div>
 
@@ -98,9 +98,9 @@ function getCouple() {
         return daysWithCouples[day][2];
     else if (now >= getUADate(year, month, date, 13, 55, 0) && now <= getUADate(year, month, date, 15, 50, 0))
         return daysWithCouples[day][3];
-    else if (now >= getUADate(year, month, date, 15, 50, 0) && now <= getUADate(year, month, date, 18, 10, 0))
+    else if (now >= getUADate(year, month, date, 15, 50, 0) && now <= getUADate(year, month, date, 17, 45, 0))
         return daysWithCouples[day][4];
-    else if (now > getUADate(year, month, date, 18, 10, 0) && now < getUADate(year, month, date, 8, 30, 0))
+    else if (now > getUADate(year, month, date, 17, 45, 0) && now < getUADate(year, month, date, 8, 30, 0))
         return -1;
     else return 0;
 }
