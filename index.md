@@ -81,7 +81,7 @@ function checkWeekAndCouple() {
 }
 
 function getNowWeek() {
-    const today = getUADate(year, month, day, 0, 0, 0).getTime();
+    const today = getUADate(year, month, date, 0, 0, 0).getTime();
     const week = Math.round((time) / (1000 * 60 * 60 * 24 * 7));
     return week % 2 ? 1 : 2;
 }
