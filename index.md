@@ -5,6 +5,11 @@ aside: false
 ---
 
 <h1>Розклад</h1>
+<h3 style="text-align:center;">
+
+[Курсач на цей семестр `Обов'язково`](https://classroom.google.com/u/2/c/NjE1NDE0OTY1OTkw)
+
+</h3>
 
 <h2 id="firstWeekH2">Перший тиждень</h2>
 
