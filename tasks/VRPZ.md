@@ -4,7 +4,7 @@
 
 ## Інформація
 
-[Jit meet](https://meet.jit.si/RevolutionaryJoysTemptRecklessly)
+* [Jit meet](https://meet.jit.si/RevolutionaryJoysTemptRecklessly)
 
 ## ДЗ, МКР, Лаби
 

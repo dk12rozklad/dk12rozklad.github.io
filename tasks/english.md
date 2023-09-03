@@ -4,7 +4,7 @@
 
 ## Інформація
 
-[Google meet](https://meet.google.com/ops-juet-dsy)
+* [Google meet](https://meet.google.com/ops-juet-dsy)
 
 ## ДЗ, МКР, Лаби
 
