@@ -2,10 +2,10 @@
 
 Бондаренко В. М.
 
-##  Інформація
+## Інформація
 
-* Coming soon...
+-   Coming soon...
 
 ## ДЗ, МКР, Лаби
 
-* Coming soon...
+-   Coming soon...
