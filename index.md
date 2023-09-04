@@ -4,20 +4,14 @@ layout: "doc"
 aside: false
 ---
 
-<h1>Розклад</h1>
-<h3 style="text-align:center;">
+# Розклад {style="text-align:center;"}
 
-Курсач на цей семестр `Обов'язково`
-<br>
+### Курсач на цей семестр `Обов'язково` {style="text-align:center;"}
+### [Classroom](https://classroom.google.com/c/NjE1NDE0OTY1OTkw?cjc=rtguuil) {style="text-align:center;margin: 10px 0 0"}
+### [Zoom](https://us02web.zoom.us/j/5551893007?pwd=RkpjT2tndUpnU25ldXRTZUNjaHlUdz09) {style="text-align:center;margin: 10px 0 0"}
 
-[Classroom](https://classroom.google.com/c/NjE1NDE0OTY1OTkw?cjc=rtguuil)
-<br>
 
-[Zoom](https://us02web.zoom.us/j/5551893007?pwd=RkpjT2tndUpnU25ldXRTZUNjaHlUdz09)
-
-</h3>
-
-<h2 id="firstWeekH2">Перший тиждень</h2>
+## Перший тиждень {#firstWeekH2}
 
 <div id="firstWeek">
 
@@ -31,7 +25,7 @@ aside: false
 
 </div>
 
-<h2 id="secondWeekH2">Другий тиждень</h2>
+## Другий тиждень {#secondWeekH2}
 
 <div id="secondWeek">
 
@@ -50,7 +44,7 @@ aside: false
 <script setup>
 import { onMounted } from "vue"
 
-onMounted(() => { 
+onMounted(() => {
     console.log("Ну і чого ти сюди дивишся, чортяка! Якщо ти хочеш допомогти зробити цей сайт краще, то пиши в телеграм: @Renat_TOP");
     try {
         checkWeekAndCouple()
