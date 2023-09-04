@@ -7,7 +7,13 @@ aside: false
 <h1>Розклад</h1>
 <h3 style="text-align:center;">
 
-[Курсач на цей семестр `Обов'язково`](https://classroom.google.com/u/2/c/NjE1NDE0OTY1OTkw)
+Курсач на цей семестр `Обов'язково`
+<br>
+
+[Classroom](https://classroom.google.com/u/2/c/NjE1NDE0OTY1OTkw)
+<br>
+
+[Zoom](https://us02web.zoom.us/j/5551893007?pwd=RkpjT2tndUpnU25ldXRTZUNjaHlUdz09)
 
 </h3>
 
