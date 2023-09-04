@@ -5,6 +5,8 @@
 ## Інформація
 
 -   [Google meet](https://meet.google.com/ops-juet-dsy)
+-   Пошта Доронкіна [ndoron@ukr.net](mailto:ndoron@ukr.net)
+-   Телефон: [+380964173649](tel:+380964173649)
 
 ## ДЗ, МКР, Лаби
 
