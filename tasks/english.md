@@ -8,5 +8,5 @@
 
 ## ДЗ, МКР, Лаби
 
-::: warning Тест
-До некст пари пройти [**Тест**](https://forms.gle/nmwr1XDBbVodZpJM8)
+<!-- ::: warning Тест
+До некст пари пройти [**Тест**](https://forms.gle/nmwr1XDBbVodZpJM8) -->
