@@ -80,7 +80,7 @@ function checkWeekAndCouple() {
         }
     }
     else if (nowCouple) {
-        weekDays[nowCouple - 6].style.border = "1px solid var(--vp-c-divider)"
+        weekDays[nowCouple > 5 ? nowCouple - 5 : nowCouple].style.border = "1px solid var(--vp-c-divider)"
         weekDays[nowCouple].style.border = "2px solid #059669";
     }
 }
@@ -95,10 +95,8 @@ function getCouple() {
     // [sunday, monday, tuesday, wednesday, thursday, friday, saturday]
     const daysWithCouples = [[], [1, 6, 11, 16, 21], [2, 7, 12, 17, 22], [3, 8, 13, 18, 23], [4, 9, 14, 19, 24], [], []];
 
-    if (now >= getUADate(year, month, date, 8, 30, 0) && now <= getUADate(year, month, date, 10, 5, 0)) {
-        console.log("Here")
+    if (now >= getUADate(year, month, date, 8, 30, 0) && now <= getUADate(year, month, date, 10, 5, 0))
         return daysWithCouples[day][0];
-    }
     else if (now >= getUADate(year, month, date, 10, 5, 0) && now <= getUADate(year, month, date, 12, 0, 0))
         return daysWithCouples[day][1];
     else if (now >= getUADate(year, month, date, 12, 0, 0) && now <= getUADate(year, month, date, 13, 55, 0))
