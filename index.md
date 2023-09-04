@@ -92,7 +92,6 @@ function getNowWeek() {
 }
 
 function getCouple() {
-    console.log(daysWithCouples[day][0]);
     console.log(now, getUADate(year, month, date, 8, 30, 0))
     // [sunday, monday, tuesday, wednesday, thursday, friday, saturday]
     const daysWithCouples = [[], [1, 6, 11, 16, 21], [2, 7, 12, 17, 22], [3, 8, 13, 18, 23], [4, 9, 14, 19, 24], [], []];
