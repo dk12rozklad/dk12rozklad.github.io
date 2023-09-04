@@ -10,7 +10,7 @@ aside: false
 Курсач на цей семестр `Обов'язково`
 <br>
 
-[Classroom](https://classroom.google.com/u/2/c/NjE1NDE0OTY1OTkw)
+[Classroom](https://classroom.google.com/c/NjE1NDE0OTY1OTkw?cjc=rtguuil)
 <br>
 
 [Zoom](https://us02web.zoom.us/j/5551893007?pwd=RkpjT2tndUpnU25ldXRTZUNjaHlUdz09)
