@@ -25,49 +25,49 @@
 <details>
 <summary>Лаба 0</summary>
 
--   [Лаба 0 PDF](https://dk12rozklad.github.io/files/circuitry/Lab_0.pdf)
+-   [Лаба 0 PDF](https://dk12rozklad.github.io/files/Circuitry/Lab_0.pdf)
 -   [Файли](https://github.com/KorotkiyEugene/digital_lab/tree/master/Lab0)
 </details>
 
 <details>
 <summary>Лаба 1</summary>
 
--   [Лаба 1 PDF](https://dk12rozklad.github.io/files/circuitry/Lab_1.pdf)
+-   [Лаба 1 PDF](https://dk12rozklad.github.io/files/Circuitry/Lab_1.pdf)
 -   [Файли](https://github.com/KorotkiyEugene/digital_lab/tree/master/Lab1)
 </details>
 
 <details>
 <summary>Лаба 2</summary>
 
--   [Лаба 2 PDF](https://dk12rozklad.github.io/files/circuitry/Lab_2.pdf)
+-   [Лаба 2 PDF](https://dk12rozklad.github.io/files/Circuitry/Lab_2.pdf)
 -   [Файли](https://github.com/KorotkiyEugene/digital_lab/tree/master/Lab2)
 </details>
 
 <details>
 <summary>Лаба 3</summary>
 
--   [Лаба 3 PDF](https://dk12rozklad.github.io/files/circuitry/Lab_3.pdf)
+-   [Лаба 3 PDF](https://dk12rozklad.github.io/files/Circuitry/Lab_3.pdf)
 -   [Файли](https://github.com/KorotkiyEugene/digital_lab/tree/master/Lab3)
 </details>
 
 <details>
 <summary>Лаба 4</summary>
 
--   [Лаба 4 PDF](https://dk12rozklad.github.io/files/circuitry/Lab_4.pdf)
+-   [Лаба 4 PDF](https://dk12rozklad.github.io/files/Circuitry/Lab_4.pdf)
 -   [Файли](https://github.com/KorotkiyEugene/digital_lab/tree/master/Lab4)
 </details>
 
 <details>
 <summary>Лаба 5</summary>
 
--   [Лаба 5 PDF](https://dk12rozklad.github.io/files/circuitry/Lab_5.pdf)
+-   [Лаба 5 PDF](https://dk12rozklad.github.io/files/Circuitry/Lab_5.pdf)
 -   [Файли](https://github.com/KorotkiyEugene/digital_lab/tree/master/Lab5)
 </details>
 
 <details>
 <summary>Лаба 6</summary>
 
--   [Лаба 6 PDF](https://dk12rozklad.github.io/files/circuitry/Lab_6.pdf)
+-   [Лаба 6 PDF](https://dk12rozklad.github.io/files/Circuitry/Lab_6.pdf)
 -   [Файли](https://github.com/KorotkiyEugene/digital_lab/tree/master/Lab6)
 </details>
 </details>
