@@ -6,6 +6,7 @@
 
 -   [Classroom](https://classroom.google.com/u/2/c/NjIwODQ5Njk4Mzgy)
 -   [Google meet](https://meet.google.com/fnc-thdj-bqg)
+-   [Лаби](https://drive.google.com/drive/u/1/folders/1ZeUGQuPCxVTuHqs5ZL6OPFROBdQq4vHo)
 -   Пошта Омелян: [31master91@gmail.com](mailto:31master91@gmail.com)
 -   Telegram: [@aomelian](https://t.me/aomelian)
 -   Телефон: [+38(066)300-62-67](tel:+380663006267)
