@@ -14,7 +14,67 @@
 -   [Слайди відео лекцій 1](https://docs.google.com/document/d/1FHM-9jF4-_sAWBaDXs6qRMIGvNDs53_51qbRaikTRf4/edit?usp=sharing), [Слайди відео лекцій 2](https://drive.google.com/drive/folders/1nZ2LQc0s5yWl_ECuFnpT6c8bzdxbGRbC?usp=sharing)
 -   [Книга 1](https://drive.google.com/file/d/1j8w9zO7RJiHtz_V0Lc9T864WQ6JyfvUJ/view?usp=sharing), [Книга 2](https://drive.google.com/file/d/1iyydxUk0MlZ8N_9D_YlENGYOTpOh-hXn/view?usp=sharing), [Книга 3](https://drive.google.com/file/d/1sflfP8ZjHf7rvjgpG4oPoipxiOEs-EBn/view?usp=sharing)
 -   [Силабус](https://drive.google.com/file/d/1gNC7tVhmwRAFTZTxM7JhaeRf376RAfm0/view?usp=sharing)
+-   [САПР Quartus Prime Lite, 2018](http://fpgasoftware.intel.com/?edition=lite)
 
 ## ДЗ, МКР, Лаби
 
--   Coming soon...
+Вся інша інфа по лабам в PDF файлах лаб
+
+<details>
+<summary>Лаби</summary>
+<details>
+<summary>Лаба 0</summary>
+
+-   [Лаба 0 PDF](https://dk12rozklad.github.io/files/Circuitry/Lab_0.pdf)
+-   [Файли](https://github.com/KorotkiyEugene/digital_lab/tree/master/Lab0)
+</details>
+
+<details>
+<summary>Лаба 1</summary>
+
+-   [Лаба 1 PDF](https://dk12rozklad.github.io/files/Circuitry/Lab_1.pdf)
+-   [Файли](https://github.com/KorotkiyEugene/digital_lab/tree/master/Lab1)
+</details>
+
+<details>
+<summary>Лаба 2</summary>
+
+-   [Лаба 2 PDF](https://dk12rozklad.github.io/files/Circuitry/Lab_2.pdf)
+-   [Файли](https://github.com/KorotkiyEugene/digital_lab/tree/master/Lab2)
+</details>
+
+<details>
+<summary>Лаба 3</summary>
+
+-   [Лаба 3 PDF](https://dk12rozklad.github.io/files/Circuitry/Lab_3.pdf)
+-   [Файли](https://github.com/KorotkiyEugene/digital_lab/tree/master/Lab3)
+</details>
+
+<details>
+<summary>Лаба 4</summary>
+
+-   [Лаба 4 PDF](https://dk12rozklad.github.io/files/Circuitry/Lab_4.pdf)
+-   [Файли](https://github.com/KorotkiyEugene/digital_lab/tree/master/Lab4)
+</details>
+
+<details>
+<summary>Лаба 5</summary>
+
+-   [Лаба 5 PDF](https://dk12rozklad.github.io/files/Circuitry/Lab_5.pdf)
+-   [Файли](https://github.com/KorotkiyEugene/digital_lab/tree/master/Lab5)
+</details>
+
+<details>
+<summary>Лаба 6</summary>
+
+-   [Лаба 6 PDF](https://dk12rozklad.github.io/files/Circuitry/Lab_6.pdf)
+-   [Файли](https://github.com/KorotkiyEugene/digital_lab/tree/master/Lab6)
+</details>
+</details>
+
+<style scoped>
+summary {
+    margin: 0;
+}
+
+</style>
