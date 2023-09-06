@@ -6,7 +6,7 @@ aside: false
 
 # Розклад {style="text-align:center;"}
 
-### [Таблиця з прогресом Лаб та КР](https://docs.google.com/spreadsheets/d/1WgMoGPEhlSP8bXxPBziwLw-HYi10553Zxro24GwwDc4/edit#gid=0)
+### [Таблиця з прогресом Лаб та КР](https://docs.google.com/spreadsheets/d/1WgMoGPEhlSP8bXxPBziwLw-HYi10553Zxro24GwwDc4/edit#gid=0) {style="text-align:center;margin: 10px 0 0"}
 
 ### Курсач на цей семестр `Обов'язково` {style="text-align:center;"}
 ### [Classroom](https://classroom.google.com/c/NjE1NDE0OTY1OTkw?cjc=rtguuil) {style="text-align:center;margin: 10px 0 0"}
