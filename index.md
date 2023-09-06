@@ -9,9 +9,10 @@ aside: false
 ### [Таблиця з прогресом Лаб та КР](https://docs.google.com/spreadsheets/d/1WgMoGPEhlSP8bXxPBziwLw-HYi10553Zxro24GwwDc4/edit#gid=0) {style="text-align:center;margin: 10px 0 0"}
 
 ### Курсач на цей семестр `Обов'язково` {style="text-align:center;"}
-### [Classroom](https://classroom.google.com/c/NjE1NDE0OTY1OTkw?cjc=rtguuil) {style="text-align:center;margin: 10px 0 0"}
-### [Zoom](https://us02web.zoom.us/j/5551893007?pwd=RkpjT2tndUpnU25ldXRTZUNjaHlUdz09) {style="text-align:center;margin: 10px 0 0"}
 
+### [Classroom](https://classroom.google.com/c/NjE1NDE0OTY1OTkw?cjc=rtguuil) {style="text-align:center;margin: 10px 0 0"}
+
+### [Zoom](https://us02web.zoom.us/j/5551893007?pwd=RkpjT2tndUpnU25ldXRTZUNjaHlUdz09) {style="text-align:center;margin: 10px 0 0"}
 
 ## Перший тиждень {#firstWeekH2}
 
@@ -20,7 +21,7 @@ aside: false
 |                    |              Понеділок              |                Вівторок                |           Середа           |              Четвер               |
 | :----------------: | :---------------------------------: | :------------------------------------: | :------------------------: | :-------------------------------: |
 | 1<br>08:30 - 10:05 |     [АПЦП `Лек`](/tasks/APTSP)      |        [ОІТ `Лек`](/tasks/OIT)         | [АПЦП `Лаб`](/tasks/APTSP) |                                   |
-| 2<br>10:25 - 12:00 |      [ВРПЗ `Лек`](/tasks/VRPZ)      | [Схемотехніка `Лек`](/tasks/circuitry) |  [ТСС `Лек`](/tasks/TSS)   |                                   |
+| 2<br>10:25 - 12:00 |      [ВРПЗ `Лек`](/tasks/VRPZ)      | [Схемотехніка `Лек`](/tasks/circuitry) |  [ТСС `Лек`](/tasks/TSS)   |          Замість 3 пари           |
 | 3<br>12:20 - 13:55 |                                     |        [ОМТ `Лек`](/tasks/OMT)         |  [ТСС `Лаб`](/tasks/TSS)   | [КТ ТК РЕА `Лек`](/tasks/KTTKREA) |
 | 4<br>14:15 - 15:50 |                                     |                                        |  [ОMТ `Лаб`](/tasks/OMT)   |                                   |
 | 5<br>16:10 - 17:45 | [Англійська `Прак`](/tasks/english) |                                        |                            |                                   |
