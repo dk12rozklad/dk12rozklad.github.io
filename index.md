@@ -8,6 +8,8 @@ aside: false
 
 ### [Таблиця з прогресом Лаб та КР](https://docs.google.com/spreadsheets/d/1WgMoGPEhlSP8bXxPBziwLw-HYi10553Zxro24GwwDc4/edit#gid=0) {style="text-align:center;margin: 10px 0 0"}
 
+### [Google Drive з Лабами](https://drive.google.com/drive/folders/1PQRp0uAXy95Q8l2S8xIsrQ-juQPd22eh?usp=sharing) {style="text-align:center;margin: 10px 0 0"}
+
 ### Курсач на цей семестр `Обов'язково` {style="text-align:center;"}
 
 ### [Classroom](https://classroom.google.com/c/NjE1NDE0OTY1OTkw?cjc=rtguuil) {style="text-align:center;margin: 10px 0 0"}
