@@ -9,4 +9,9 @@
 
 ## ДЗ, МКР, Лаби
 
--   Coming soon...
+<details>
+<summary>Лаба 1</summary>
+
+-   [Лаба 1 PDF](https://dk12rozklad.github.io/files/TSS/Lab_1.pdf)
+-   [Параметри](https://dk12rozklad.github.io/files/TSS/Lab_1_params.xlsx)
+</details>
