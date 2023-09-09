@@ -14,6 +14,6 @@
 ## ДЗ, МКР, Лаби
 
 ::: warning Лаба
-Здати в класрумі [підготовку до лаби](https://classroom.google.com/u/2/c/NjE5NjkxNjM1NzE1/a/NjE5NjkxNjM1Nzg1/details)
+Здати в класрумі [**підготовку до лаби**](https://classroom.google.com/u/2/c/NjE5NjkxNjM1NzE1/a/NjE5NjkxNjM1Nzg1/details)
 
 -   [Лаба 1](https://classroom.google.com/u/2/c/NjE5NjkxNjM1NzE1/m/NjE5NjkxNjM1Nzgz/details)
