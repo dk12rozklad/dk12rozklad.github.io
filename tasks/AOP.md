@@ -1,10 +1,12 @@
-# Конструювання та технологія ТК та РЕА
+# Архітектура обчислювальних пристроїв
 
-Лисенко О. І.
+Омелян А.В.
 
 ## Інформація
 
--   [Zoom](https://us05web.zoom.us/j/3097945653?pwd=b0lrbDJjQVBZVmlySnVsL0Q0eVVZQT09)
+-   Пошта Омелян: [31master91@gmail.com](mailto:31master91@gmail.com)
+-   Telegram: [@aomelian](https://t.me/aomelian)
+-   Телефон: [+38(066)300-62-67](tel:+380663006267)
 
 ## ДЗ, МКР, Лаби
 
