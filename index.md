@@ -10,7 +10,7 @@ aside: false
 
 ### [Google Drive з Лабами](https://drive.google.com/drive/folders/1PQRp0uAXy95Q8l2S8xIsrQ-juQPd22eh?usp=sharing) {style="text-align:center;margin: 10px 0 0"}
 
-### "Фортуна сприяє сміливим". ― Вергілій, римський поет (70 – 19 рр. до н. е.). {style="text-align:center;margin: 10px 0 0"}
+#### «Фортуна сприяє сміливим» ― `Вергілій, римський поет (70 – 19 рр. до н. е.).` {style="text-align:center;margin: 10px 0 0"}
 
 ## Перший тиждень {#firstWeekH2}
 
