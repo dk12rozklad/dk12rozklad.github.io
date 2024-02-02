@@ -4,11 +4,11 @@
 
 ## Інформація
 
-<!-- -   [Zoom лекція Корнєв](https://us02web.zoom.us/j/82877120983?pwd=WEM5Tnd3bGplMmF3MVdWMTZLTk5TUT09) -->
-<!-- -   [Zoom лаба Бондаренко](https://us04web.zoom.us/j/5173173893?pwd=WU1DRVpCclFQWmN6Vm51b3U0akRxUT09) -->
--   Пошта Бондаренко: [nalbondarenko@gmail.com](mailto:nalbondarenko@gmail.com)
-
+- [Zoom лекція Корнєв](https://bit.ly/3ueoC0d)
+- [Окремі і додаткові on-line зустрічі Zoom](https://bit.ly/3iy2OmS)
+- Пошта Бондаренко: [nalbondarenko@gmail.com](mailto:nalbondarenko@gmail.com)
+- [Classroom](https://classroom.google.com/c/NjYxMTk3NDgxMTk2?cjc=6hhrzia)
 
 ## ДЗ, МКР, Лаби
 
--  Coming soon...
+- Мікроконтролери архітектури ARM.
