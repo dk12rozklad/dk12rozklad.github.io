@@ -4,7 +4,7 @@
 
 ## Інформація
 
--   Coming soon...
+-   [MatLab](https://matlab.mathworks.com/) Там є онлайн версія та скачати тріалку
 
 
 ## ДЗ, МКР, Лаби
