@@ -5,8 +5,8 @@
 ## Інформація
 
 -   [Google meet](https://meet.google.com/gow-prxc-tnt)
--   [Пошта особиста:redkoigor@ukr.net](mailto:redkoigor@ukr.net)
--   [Пошта для робіт:kpidk@ukr.net](kpidk@ukr.net)
+-   Пошта особиста: [redkoigor@ukr.net](mailto:redkoigor@ukr.net)
+-   Пошта для робіт: [kpidk@ukr.net](kpidk@ukr.net)
 
 ## ДЗ, МКР, Лаби
 
