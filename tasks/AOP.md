@@ -10,7 +10,7 @@
 -   Телефон: [+38(066)300-62-67](tel:+380663006267)
 -   [Classroom](https://classroom.google.com/c/NjYxNDk0MDg1Njkz)
 -   ModelSim - має бути, якщо вже нема, то сам винен
--   [MARS](www.cs.missouristate.edu/MARS) Ну або скачати в класрумі
+-   [MARS](https://courses.missouristate.edu/KenVollmar/MARS/download.htm) Ну або скачати в класрумі
 -   Вся інша інфа в класрумі
 
 ## ДЗ, МКР, Лаби
